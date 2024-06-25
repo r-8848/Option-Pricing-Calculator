@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light gray background */
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #343a40; /* Dark background for header */
+            padding: 12px 20px;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 2;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+        }
+        
+        header .icon {
+            font-size: 3em;
+            margin-right: 10px;
+            line-height: 1; 
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2em; 
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            margin-top: 10px; /* Increased margin top for better spacing */
+            text-align: center;
+            color: #495057; /* Slightly darker text color */
+        }
+
+        .intro-description {
+            padding: 20px 0; /* Increased padding */
+            margin-bottom: 0px; /* Added margin at bottom for separation */
+            width: 80%;
+            max-width: 600px;
+            font-size:20px;
+        }
+
+        .model-description {
+            background-color: #007bff; /* Blue background for model descriptions */
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 8px; /* Rounded corners */
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding subtle shadow */
+            transition: background-color 0.3s ease; /* Smooth transition on hover */
+        }
+
+        .model-description:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        .model-description h3 {
+            margin: 0 0 10px; /* Bottom margin for headings */
+            color: white; /* White text color for headings */
+        }
+
+        .model-button {
+            display: inline-block;
+            margin-top: 10px; /* Top margin for button */
+            padding: 10px 20px;
+            background-color: #ffc107; /* Yellow button */
+            color: black; /* Black text color */
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease; /* Smooth transition on hover */
+        }
+
+        .model-button:hover {
+            background-color: #ffca2c; /* Lighter yellow on hover */
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow at the top of footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span class="icon">🖩</span>
+        <h1>Option Pricing Calculator</h1>
+    </header>
+
+    <div class="content">
+        <div class="intro-description">
+            <h2>One Stop Destination for Calculating Option Prices!</h2>
+            <p>Explore different models and calculate option prices effortlessly.</p>
+        </div>
+        <div class="model-description">
+            <h3>Two-Step Binomial Model</h3>
+            <a class="model-button" href="two_step">Try Out</a>
+        </div>
+        <div class="model-description">
+            <h3>N-Step Binomial Model</h3>
+            <a class="model-button" href="n_step">Try Out</a>
+        </div>
+        <div class="model-description">
+            <h3>Black-Scholes Model</h3>
+            <a class="model-button" href="black_scholes">Try Out</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Option Pricing Calculator. All rights reserved.
+    </footer>
+</body>
+</html>
