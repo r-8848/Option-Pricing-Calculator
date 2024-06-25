@@ -8,14 +8,6 @@ Welcome to the Option Pricing Calculator! This Django web application allows you
 - **N-Step Binomial Model**: Allows you to specify the number of steps for a more detailed calculation.
 - **Black-Scholes Model**: Uses the Black-Scholes formula to calculate option prices.
 
-## Getting Started
-
-### Required Libraries Installation if needed
-You can install the required libraries using pip:
-
-```bash
-pip install django numpy pandas matplotlib
-
 ### Usage
 
 1. **Choose a Model**: On the home page, select one of the three models:
