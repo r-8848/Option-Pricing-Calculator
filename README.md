@@ -15,11 +15,12 @@ Welcome to the Option Pricing Calculator! This Django web application allows you
 ### Home Page
 ![Home Page](images/home.png)
 
-### Model Calculation page
-![ Result_page](images/result.png)
+### Calculation page
+![Calculation Page](images/calculation.png)
 
 ### Result page
-![Review_page](images/review.png)
+![Result Page](images/result.png)
+
 ## Usage
 
 ### How to Use
